@@ -1,0 +1,79 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;   
+}
+
+body{
+    font-family: Arial,sans-serif;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+
+}
+/* aneeshussain954@gmail.com */
+.container{
+    background-color:#1E1E1E;
+    
+    border-radius: 10px;
+    padding: 20px;
+    text-align: center;
+    width: 300px;
+    
+}
+img{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    object-fit: cover;
+
+}
+.header{
+    font-family: Arial, sans-serif;
+    color: white;
+    position: relative;
+    top: 20px;
+}
+.para{
+    color: lightgreen;
+    position: relative;
+    
+    top: 30px;
+    font-weight: bold;
+}
+.para2{
+   
+    color: white;
+    position: relative;
+    bottom: 20px;
+    top: 50px;
+    font-family:  Arial,sans-serif;
+    font-weight: 500;
+
+}
+
+.button{
+    
+   margin-top: 70px;
+}
+.buttona{
+    display: block;
+    background-color: #333;
+    color: #fff;
+    text-decoration: none;
+    padding: 10px;
+    margin: 5px ;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+    cursor: pointer;
+
+}
+.buttona:hover{
+    background-color: #555;
+}
+
+    
+     
+
